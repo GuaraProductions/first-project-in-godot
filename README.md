@@ -1,4 +1,4 @@
-# first-project-in-goddo
+# first-project-in-godot
 
 My first project in the Goddo engine
 
