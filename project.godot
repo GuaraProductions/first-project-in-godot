@@ -14,12 +14,17 @@ config/name="First Godot Project"
 run/main_scene="res://scenes/World.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+PlayerStats="*res://scripts/Player/PlayerStats.tscn"
+
 [display]
 
 window/size/width=320
 window/size/height=180
 window/size/test_width=1280
 window/size/test_height=720
+window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
@@ -100,6 +105,7 @@ roll={
 2d_physics/layer_3="PlayerHurtbox"
 2d_physics/layer_4="EnemyHurtbox"
 2d_physics/layer_5="Enemy"
+2d_physics/layer_6="SoftCollisions"
 
 [physics]
 
